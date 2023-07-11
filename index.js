@@ -53,7 +53,7 @@ function createOutputDirectory() {
         }
         createOutputDirectory();
         // Save the LinkedIn profiles as JSON in Output/linkedin_profiles.json
-        fs.writeFileSync('Output/linkedin_profiles.json.json', JSON.stringify(linkedInProfiles));
+        fs.writeFileSync('Output/linkedin_profiles.json', JSON.stringify(linkedInProfiles));
         // Write LinkedIn profiles to CSV as linkedin_profiles.csv
         await csvWriter.writeCSVFile('Output/linkedin_profiles.csv', linkedInProfiles);
     } catch (error) {
