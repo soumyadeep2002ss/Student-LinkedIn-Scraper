@@ -1,0 +1,16 @@
+{
+  "name": "Student-LinkedIn-Scraper",
+  "version": "1.0.0",
+  "description": "Extracts profile data from LinkedIn based on a CSV file containing student information.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Soumyadeep Pal",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^20.8.0"
+  }
+}
