@@ -32,7 +32,7 @@ This module contains helper functions to compare and match names between the CSV
 
 ### student.csv
 
-This CSV file contains the student information, including name, email, house, year, and concentration. It serves as the input data for the LinkedIn profile scraper.
+This CSV file contains the student information, including name, email, house, year, and concentration. It serves as the input data for the LinkedIn profile scraper. You can access the file [here](student.csv).
 
 ### Output Files
 
@@ -46,14 +46,14 @@ This CSV file contains the scraped LinkedIn profile data. It includes columns fo
 
 This JSON file contains the scraped LinkedIn profile data. It is in a structured format with objects representing each student's profile, including their name, email, house, year, concentration, and LinkedIn URL.
 
-Make sure to check the Output directory after running the scraper to access the generated output files.You can access the generated CSV file [here](Output/linkedin_profiles.csv) and the generated JSON file [here](Output/linkedin_profiles.json).
+Make sure to check the Output directory after running the scraper to access the generated output files. You can access the generated CSV file [here](Output/linkedin_profiles.csv) and the generated JSON file [here](Output/linkedin_profiles.json).
 
 ## Usage
 
 1. Install dependencies by running either `npm install` or `yarn install`.
 2. Update the `student.csv` file with the relevant student information.
 3. Adjust the scraping logic and functionality within the different modules as needed.
-4. Run the scraper by executing the command `node main.js`.
+4. Run the scraper by executing the command `npm start` or `yarn start`.
 5. Once the scraping process is complete, the scraped LinkedIn profile data will be saved in both JSON and CSV formats as `linkedin_profiles.json` and `linkedin_profiles.csv`, respectively.
 
 ## Output Examples
